@@ -284,6 +284,18 @@ require('lazy').setup({
     },
   },
 
+  {
+    'pysan3/fcitx5.nvim',
+    opts = {
+      imname = {
+        norm = 'keyboard-us',
+        cmd = 'keyboard-us',
+        vis = 'keyboard-us',
+      },
+      remember_prior = true,
+      define_autocmd = true,
+    },
+  },
   -- NOTE: Plugins can also be configured to run Lua code when they are loaded.
   --
   -- This is often very useful to both group configuration, as well as handle
